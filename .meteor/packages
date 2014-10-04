@@ -6,3 +6,12 @@
 meteor-platform
 autopublish
 insecure
+accounts-base
+accounts-password
+joshowens:accounts-entry
+mizzao:bootstrap-3
+accounts-facebook
+accounts-twitter
+accounts-google
+iron:router
+
