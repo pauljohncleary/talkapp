@@ -4,14 +4,11 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
-insecure
-accounts-base
-accounts-password
-joshowens:accounts-entry
 mizzao:bootstrap-3
-accounts-facebook
-accounts-twitter
-accounts-google
 iron:router
+accounts-ui
+accounts-facebook
+joshowens:accounts-entry
+natestrauser:font-awesome
+sacha:spin
 
