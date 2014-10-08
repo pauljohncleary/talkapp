@@ -1,4 +1,5 @@
 <template name="groupChat">
-  Members of your group: {{#each members}}{{this}}{{/each}}
+  Members of your group: {{#each members}}{{this}} <br> {{/each}}
+  Messages: {{#each messages}}{{this.sender}} {{this.message}} {{this.timestamp}} <br>{{/each}}
 
 </template>
