@@ -6,11 +6,12 @@ Accounts.onCreateUser(function(options, user) {
     members: [user._id]
   });
 
-  user.group = groupId;
 
   if (options.profile) {
     user.profile = options.profile;
   }
+
+  user.profile.group = groupId;
 
   return user;
 });
