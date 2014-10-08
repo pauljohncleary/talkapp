@@ -1,5 +1,18 @@
 <template name="groupChat">
   Members of your group: {{#each members}}{{this}} <br> {{/each}}
   Messages: {{#each messages}}{{this.sender}} {{this.message}} {{this.timestamp}} <br>{{/each}}
+  <form class="main">
+    <div class="control-group">
+        <label class="control-label" for="message">Message</label>
+        <div class="controls">
+            <textarea name="message" type="text" value=""></textarea>
+        </div>
+    </div>
 
+    <div class="control-group">
+        <div class="controls">
+            <input type="submit" value="Submit" class="btn btn-primary"/>
+        </div>
+    </div>
+  </form>
 </template>
