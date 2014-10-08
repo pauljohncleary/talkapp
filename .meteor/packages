@@ -8,7 +8,5 @@ mizzao:bootstrap-3
 iron:router
 accounts-ui
 accounts-facebook
-joshowens:accounts-entry
 natestrauser:font-awesome
 sacha:spin
-
